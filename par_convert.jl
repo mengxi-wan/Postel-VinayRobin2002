@@ -1,8 +1,8 @@
-#---------------------------------------------------------------
+#----------------------------------------------------------------
 # Optimzation requires the parameter argument to be vector
-# This function converts the imput parameter vector into struct 
+# This function converts the input parameter vector into a struct 
 # to generate worker panel and simulated moments
-#---------------------------------------------------------------
+#----------------------------------------------------------------
 
 function par_convert(px, conversion_type)
 
