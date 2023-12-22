@@ -113,6 +113,6 @@ SDT                         = simulate_panel(ESP, fxp);
 SMO                         = generate_moments(SDT);
 smom                        = [SMO.mean_j2j, SMO.mean_mlw, SMO.mean_sdlw, SMO.mean_sklw, SMO.mean_dlw, SMO.mean_dlwjj, SMO.b_ten, SMO.b_eten, SMO.std_wrkmxlw, SMO.std_frmmxlw, SMO.std_frmmnlw, SMO.mean_mhlw, SMO.mean_sdhlw];
 
-# Show the Model Fit
+# Show the model fit
 println(emom')
 println(smom')
